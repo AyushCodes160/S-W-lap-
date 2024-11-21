@@ -1,0 +1,32 @@
+table, th, td {
+    border:2px solid black;
+    border-collapse: collapse;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+table {
+    margin: auto; /* Centers the table */
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.up{
+    width: 100%;
+    background-image: url(Mikisa.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+}
